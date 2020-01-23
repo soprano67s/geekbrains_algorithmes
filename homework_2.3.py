@@ -3,8 +3,8 @@
 
 n = int(input('Введите количество элементов: '))
 x = 1
-sum = 0
+sum_ = 0
 for i in range(n):
-    sum += x
+    sum_ += x
     x = x / -2
-print(sum)
+print(sum_)

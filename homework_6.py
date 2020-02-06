@@ -47,7 +47,7 @@ print(f'Цифра {digit} встретилась {result} раз.')
 
 
 print('='*20)
-task_1 = []
+task_1 = []*8
 task_1.append(count)
 task_1.append(digit)
 task_1.append(full_num)
@@ -57,6 +57,7 @@ task_1.append(num_digit)
 task_1.append(num)
 task_1.append(x)
 print(all_size(task_1))
+print('='*20, '\n')
 
 # ==============   --------- Задача 1 -------------   ===============
 # ==============   OS Win10 x64                       ===============
@@ -106,6 +107,7 @@ task_2.append(first_count)
 task_2.append(second_count)
 task_2.append(result)
 print(all_size(task_2))
+print('='*20, '\n')
 
 # ==============   --------- Задача 2 -------------   ===============
 # ==============   OS Win10 x64                       ===============
@@ -183,6 +185,7 @@ task_3.append(mean)
 task_3.append(z)
 task_3.append(x)
 print(all_size(task_3))
+print('='*20, '\n')
 
 
 # ==============   --------- Задача 3 -------------   ===============
